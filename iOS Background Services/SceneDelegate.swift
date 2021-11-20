@@ -61,7 +61,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 extension SceneDelegate {
     
     @objc func timerAction(){
-        print("🔴 This will call every 2 second. 🔴")
+        print("🔴 This will call every 2 second when the app is in Background State 🔴")
     }
     
     @objc func appMovedToBackground() {
